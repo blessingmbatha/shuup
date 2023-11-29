@@ -17,7 +17,9 @@ pipeline {
          }
          stage('Install  Dependencies') {
              steps {
-                sh "pip install -r requirements.txt"
+                sh "pip install -r requirements-tests.txt"
+                sh "pip install -r requirements-doc.txt"
+                sh "pip install -r requirements-dev.txt"
              }
          }
          stage('Run Tests') {
