@@ -7,7 +7,7 @@ bleach==3.1.5                   # via shuup
 cairocffi==1.2.0                 # via cairosvg, weasyprint
 cairosvg==2.5.2                 # via weasyprint
 certifi==2020.12.5               # via requests
-cffi==1.14.5                     # via cairocffi, cryptography, weasyprint
+cffi==1.16.0                     # via cairocffi, cryptography, weasyprint
 chardet==4.0.0                  # via requests
 codecov==2.1.13
 coverage==5.5                   # via codecov, pytest-cov
@@ -52,7 +52,7 @@ packaging==20.9                 # via bleach, pytest
 pillow==10.1.0                   # via cairosvg, easy-thumbnails, weasyprint
 pluggy==0.13.1                  # via pytest
 py==1.10.0                      # via pytest
-pycparser==2.20                 # via cffi
+pycparser==2.21                 # via cffi
 pyparsing==2.4.7                # via packaging
 pyphen==0.10.0                  # via weasyprint
 pytest==5.4.1
